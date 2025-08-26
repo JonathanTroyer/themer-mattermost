@@ -1,24 +1,30 @@
 {
-  "name": "themer-mattermost",
-  "version": "1.1.0",
-  "description": "Mattermost template for themer",
-  "main": "lib/index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JonathanTroyer/themer-mattermost.git"
-  },
-  "keywords": [
-    "themer",
-    "mattermost"
-  ],
-  "author": "Jonathan Troyer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JonathanTroyer/themer-mattermost/issues"
-  },
-  "homepage": "https://github.com/JonathanTroyer/themer-mattermost#readme",
-  "peerDependencies": {
-    "themer": "^2||^3"
-  }
+	"name": "themer-mattermost",
+	"version": "1.1.0",
+	"description": "Mattermost template for themer",
+	"main": "lib/index.js",
+	"scripts": {
+		"lint": "biome lint .",
+		"lint:fix": "biome lint --write .",
+		"format": "biome format --write .",
+		"check": "biome check .",
+		"check:fix": "biome check --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JonathanTroyer/themer-mattermost.git"
+	},
+	"keywords": ["themer", "mattermost"],
+	"author": "Jonathan Troyer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JonathanTroyer/themer-mattermost/issues"
+	},
+	"homepage": "https://github.com/JonathanTroyer/themer-mattermost#readme",
+	"peerDependencies": {
+		"themer": "^6.8.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	}
 }
