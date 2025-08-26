@@ -4,6 +4,7 @@
 	"description": "Mattermost template for themer",
 	"main": "lib/index.js",
 	"scripts": {
+		"test": "node test.js",
 		"lint": "biome lint .",
 		"lint:fix": "biome lint --write .",
 		"format": "biome format --write .",

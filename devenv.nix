@@ -5,4 +5,8 @@
     enable = true;
     npm.enable = true;
   };
+
+  packages = [
+    pkgs.commitizen
+  ];
 }
