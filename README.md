@@ -1,5 +1,7 @@
 # themer-mattermost
 
+[![Node.js Package](https://github.com/JonathanTroyer/themer-mattermost/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/JonathanTroyer/themer-mattermost/actions/workflows/npm-publish.yml)
+
 A Mattermost theme generator for [themer](https://github.com/mjswensen/themer).
 
 ## Installation & usage
